@@ -1,0 +1,68 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+.menuItem{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+}
+
+.menuText{
+    align-self: center;
+    font-size: 5vw;
+    margin: 0 1rem;
+}
+
+.menuImage{
+    max-height: 300px;
+    min-height: 100px;
+    height: 20vw;
+    width: auto;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    
+}
+
+h1.titleText{
+    align-self: center;
+    font-size: 5vw;
+    margin: 0 1rem;
+    font-weight: 800;
+}
+
+.titleImage{
+    max-height: 300px;
+    min-height: 100px;
+    height: 20vw;
+    width: auto;
+}
+
+
+@media (min-width: 576px) {
+    .card-columns {  
+      column-count: 2;
+    }
+}
+@media (min-width: 768px) {
+    .card-columns {
+      column-count: 3;
+    }
+  }
+@media (min-width: 992px) {
+.card-columns {
+    column-count: 4;
+}
+}
+@media (min-width: 1200px) {
+.card-columns {
+    column-count: 5;
+}
+}
+
+
