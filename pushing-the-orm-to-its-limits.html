@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <title>Portfolio</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://aspigirlcodes.github.io/portfolio/theme/css/main.css" />
+
+
+
+</head>
+
+<body id="index" class="home">
+        <div class="home-button">
+            <a href="https://aspigirlcodes.github.io/portfolio/index.html"><img class="img-fluid" src="https://aspigirlcodes.github.io/portfolio/theme/img/home.png"/></a>
+        </div>
+<div class="container">
+    <h1>Pushing the ORM to its limits</h1>
+    <div class="lead">By  Sigurd Ljødal, at Djangocon Europe 2019, on Mi 10 April 2019</div>
+    <div class="row">
+        <div class="col-md-8">
+            <img src="https://aspigirlcodes.github.io/portfolio/images/sigurd_ljodal.jpg" class="img-fluid" alt="Sketchnote of Pushing the ORM to its limits">
+        </div>
+        <div class="col-md-4">
+            <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/MPpPu6c8wsM" allowfullscreen></iframe>
+            </div>
+            <p>You can do a lot more with the Django ORM than you might think, and when something isn’t possible using the existing primitives, you can easily add your own. In this talk you will learn about both advanced features of the ORM and how to run your own SQL queries.</p>
+<p>Django’s ORM makes it super simple to run quick queries against your database, but it can do a lot more for you than you might think. Need to get some statistics on a monthly-basis? Easy, just annotate your queryset with year and month using ExtractYear and ExtractMonth, and you can use .values() to get the data aggregated by month.</p>
+<p>When you find yourself in need of something that is not already covered by the existing ORM functions, you will often be able to create it yourself. Have you modelled your data with separate date and time fields, but need to compare this to a datetime field? You can make a custom expression in Django for combining the date and time into a datetime in the database.</p>
+<p>Starting with Django 1.11, you can easily make subqueries using the Django ORM. In Django 2.0 we got support for window functions. Django 2.1 exposes additional functions that are available in many databases, and version 2.2 will introduce support for custom constraints and extends the primitives for custom indexes.</p>
+<p>It is also easy to drop down to writing raw SQL if you need to. It is probably not something you need to do every day, but it’s good to know that the option is there, and know how and when to do it.</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
